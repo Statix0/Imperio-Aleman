@@ -1,0 +1,68 @@
+body {
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 10px 0;
+    color: #fff;
+    background: #333;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: #e67e22;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d35400;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #e67e22;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    background: #333;
+    text-align: center;
+}
+
+/* Estilos para modo oscuro */
+body.dark-mode {
+    color: #f4f4f4;
+    background-color: #333;
+}
+
+body.dark-mode header {
+    background: #222;
+}
+
+body.dark-mode button {
+    background-color: #e67e22;
+}
+
+body.dark-mode button:hover {
+    background-color: #d35400;
+}
